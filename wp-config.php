@@ -20,8 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-define('FS_METHOD','direct');
+define( 'FS_METHOD', 'direct' );
 
 define('DB_NAME', 'portfolio');
 
@@ -49,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'R??(ha0F<XaoU3b!a%k-&rrS,|i(I`wUG;p}Jv(ue2Slz3R6MGcRKMh787Gm>HA*');
-define('SECURE_AUTH_KEY',  '>,KT.JHp&,L)w?H8!j0sx3({!(ST.pymf,wty`%0~{OH.e_MqSt4IDoaJ,{,BVUw');
-define('LOGGED_IN_KEY',    '$]oj#9]*[k@I2GHbw1H `*8Ij@j}.Mwe75#$>*n(kHb|Ly3#hQ$[,AAn05LHP_Hm');
-define('NONCE_KEY',        'c~NW=ueh2y@!EQ.<.V}#<i/!U5y6wXlmYLdj[rmF}<PfZYw3-2R`K.S0!NbVgdb<');
-define('AUTH_SALT',        'adf$&;s(J0sN._!~nDE!XbCc9ptnqjN_}{;*2N_?rB57R}9CWZBlO2+6cbAQ.#>L');
-define('SECURE_AUTH_SALT', '&Tc-&C U;cn.$!B}0&#-b)&iZOo9ER758>>Sg])L5xPM~[36$S7;#&;!f*n)8y ,');
-define('LOGGED_IN_SALT',   'khE,%NB4N]z|XNLLkg7H(42{8TERH`[aPj8=G)DuE|SLZX}dMIK)v#jk}#pX#*|C');
-define('NONCE_SALT',       'G?7BiJ[? bBFp%6fTVz5;Za{OgW`676Pg+So2.ArwGf![Z`? [F3I}lhJho>c2Z%');
+define('AUTH_KEY',         '+pk7-^~8;DeG>C-UK-Qlc/c2y{^&U87vQX-mz?@]<70;h1[PrvNfS}R jd}wse+f');
+define('SECURE_AUTH_KEY',  'dEbzmbk/A >-LoYu$DeMi;w9RcvSCM=xgTO942%#C*vE{Mm5 Qo>v@n*FMYK$7KI');
+define('LOGGED_IN_KEY',    'rPiG#hb|&Jey<ei>5x{%-jQb%pwGVmn 45I.DZ1kLzwu 7%Y4l) sl;s#|>ki)|A');
+define('NONCE_KEY',        'f.evBS:5~fe}~c,KAg,Y@|kWcXiw6RV49J6aGsrTU[:z>2td#!_M0wI6`2j{16BG');
+define('AUTH_SALT',        'RjI[/uVEPg.TnjXHV5c1IJCBf.Mqz4zIM/O<1nAqNgkj0}9)%6*Bvj)G!VD7el%|');
+define('SECURE_AUTH_SALT', '.Y#~s?1S,WmMAT`g|%]X3ifM`J5K+SK2~a]v.%S=&PMNFO_}n]b8`*6wt@.&t<,>');
+define('LOGGED_IN_SALT',   'xrZ jW8zHSFeI>_^(i5K)%I1Z3>S#Ghhghc&.;$O!4=%N7~sd&WJt[ kyG]pZ)f+');
+define('NONCE_SALT',       'jGZNNxK=NSfW*~N2eXRqgg%Ei#|)Px;_FXfV@J/5mS^)>$g`IvM+9x%L< *sZj-/');
 
 /**#@-*/
 
@@ -66,7 +65,7 @@ define('NONCE_SALT',       'G?7BiJ[? bBFp%6fTVz5;Za{OgW`676Pg+So2.ArwGf![Z`? [F3
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'pt_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
